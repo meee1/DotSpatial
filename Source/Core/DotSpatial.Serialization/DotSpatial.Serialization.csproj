@@ -5,6 +5,7 @@
       <TargetFramework>netstandard2.0</TargetFramework>
     <Description>Helper assembly to save DotSpatial objects to file.</Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <PackageId>MP.$(AssemblyName)</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

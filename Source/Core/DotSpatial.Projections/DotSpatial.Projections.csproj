@@ -5,6 +5,7 @@
 		<OutputPath>$(ProjectDir)..\..\bin\$(Configuration)\</OutputPath>
 		<LangVersion>9.0</LangVersion>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageId>MP.$(AssemblyName)</PackageId>
 	</PropertyGroup>
 
 	<ItemGroup>
