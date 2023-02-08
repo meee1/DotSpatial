@@ -8,12 +8,6 @@ namespace DotSpatial.Positioning
 {
     // TODO: Can _Elements be used instead of _M values?  There appears to be duplication of values.
 
-    public enum MatrixOrder
-    {
-        Prepend,
-        Append
-    }
-
     /// <summary>
     /// Represents a three-dimensional double-precision matrix.
     /// </summary>
