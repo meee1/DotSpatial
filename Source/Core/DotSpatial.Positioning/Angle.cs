@@ -9,6 +9,16 @@ using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
 
+public static class ext
+{
+    public static bool Contains(this string value, string numberDecimalSeparator, StringComparison comparisonType)
+    {
+#pragma warning disable CA2249 // Consider using 'string.Contains' instead of 'string.IndexOf'... this is the implementation of Contains!
+        return value.IndexOf(numberDecimalSeparator, comparisonType) >= 0;
+#pragma warning restore CA2249
+    }
+}
+
 namespace DotSpatial.Positioning
 {
     /// <summary>

@@ -1,13 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0-windows</TargetFramework>
+	  <LangVersion>9.0</LangVersion>
+	  <TargetFrameworks>net472;net6.0-windows</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
     <Description>Windows forms controls related to customizing map cartographic symbols.</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
-  <ItemGroup>
+	<ItemGroup>
     <PackageReference Include="NetTopologySuite" Version="2.4.0" />
+    <PackageReference Include="IndexRange" Version="1.0.2" />
   </ItemGroup>
 
   <ItemGroup>

@@ -430,7 +430,7 @@ namespace DotSpatial.Serialization
             }
             else if (type == typeof(Color))
             {
-                result = ColorTranslator.FromHtml(value);
+                result = null;//ColorTranslator.FromHtml(value);
             }
             else if (type == typeof(PointF))
             {

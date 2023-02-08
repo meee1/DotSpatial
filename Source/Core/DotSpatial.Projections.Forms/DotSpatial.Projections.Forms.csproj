@@ -1,11 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0-windows</TargetFramework>
-    <UseWindowsForms>true</UseWindowsForms>
-    <Description>Windows Forms controls for working with Projections and coordinate systems.</Description>
+	  <LangVersion>9.0</LangVersion>
+	  <TargetFrameworks>net472;net6.0-windows</TargetFrameworks>
+	  <UseWindowsForms>true</UseWindowsForms>
+	  <Description>Windows Forms controls for working with Projections and coordinate systems.</Description>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
-	
+
+
+
   <ItemGroup>
     <ProjectReference Include="..\DotSpatial.Projections\DotSpatial.Projections.csproj" />
   </ItemGroup>

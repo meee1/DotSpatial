@@ -232,7 +232,7 @@ namespace DotSpatial.Serialization
             }
             else if (type == typeof(Color))
             {
-                element.Add(new XAttribute(XmlConstants.Value, ColorTranslator.ToHtml((Color)value)));
+                element.Add(new XAttribute(XmlConstants.Value, ""/*ColorTranslator.ToHtml((Color)value)*/));
             }
             else if (type == typeof(PointF))
             {

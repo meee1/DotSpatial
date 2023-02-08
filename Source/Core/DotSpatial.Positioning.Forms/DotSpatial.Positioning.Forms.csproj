@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0-windows</TargetFramework>
+	  <LangVersion>9.0</LangVersion>
+	  <TargetFrameworks>net472;net6.0-windows</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
     <Description>Global Positioning System Framework.</Description>
   </PropertyGroup>
