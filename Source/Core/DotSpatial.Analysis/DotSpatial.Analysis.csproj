@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<LangVersion>9.0</LangVersion>
-		<TargetFrameworks>net472;net6.0-windows</TargetFrameworks>
+		<TargetFrameworks>net472</TargetFrameworks>
 		<UseWindowsForms>true</UseWindowsForms>
 		<Description>Analysis and manipulation classes, such as clip raster with polygon, which are generally wrapped by a tool.</Description>
 	</PropertyGroup>

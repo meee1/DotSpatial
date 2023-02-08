@@ -2,13 +2,15 @@
 
   <PropertyGroup>
 	  <LangVersion>9.0</LangVersion>
-    <TargetFrameworks>net6.0-windows;net472</TargetFrameworks>
+    <TargetFrameworks>net472</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
     <Description>Windows Forms controls, includes a map control and legend control.</Description>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="NetTopologySuite" Version="2.4.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+    <PackageReference Include="System.Runtime" Version="4.3.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,6 +23,10 @@
     <ProjectReference Include="..\DotSpatial.Serialization\DotSpatial.Serialization.csproj" />
     <ProjectReference Include="..\DotSpatial.Symbology.Forms\DotSpatial.Symbology.Forms.csproj" />
     <ProjectReference Include="..\DotSpatial.Symbology\DotSpatial.Symbology.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
 
 </Project>

@@ -2,11 +2,12 @@
 
 	<PropertyGroup>
 		<LangVersion>9.0</LangVersion>
-		<TargetFrameworks>net472;net6.0-windows</TargetFrameworks>
+		<TargetFrameworks>net472</TargetFrameworks>
 		<OutputPath>$(ProjectDir)..\..\bin\$(Configuration)\Tools\</OutputPath>
 		<disabletransitiveprojectreferences>true</disabletransitiveprojectreferences>
 		<UseWindowsForms>true</UseWindowsForms>
 		<Description>A set of tools used for geoprocessing operations.</Description>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 	<ItemGroup>

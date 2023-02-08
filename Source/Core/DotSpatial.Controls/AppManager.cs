@@ -524,6 +524,8 @@ namespace DotSpatial.Controls
                 Trace.WriteLine(message);
                 MessageBox.Show(message);
             }
+            catch (FileNotFoundException ex) { }
+
         }
 
         private void ActivateAllExtensions()

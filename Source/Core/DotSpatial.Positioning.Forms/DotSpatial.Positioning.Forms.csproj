@@ -2,9 +2,10 @@
 
   <PropertyGroup>
 	  <LangVersion>9.0</LangVersion>
-	  <TargetFrameworks>net472;net6.0-windows</TargetFrameworks>
+	  <TargetFrameworks>net472</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
     <Description>Global Positioning System Framework.</Description>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

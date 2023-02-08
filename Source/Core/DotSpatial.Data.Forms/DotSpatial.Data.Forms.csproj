@@ -2,7 +2,7 @@
 
   <PropertyGroup>
 	  <LangVersion>9.0</LangVersion>
-	  <TargetFrameworks>net472;net6.0-windows</TargetFrameworks>
+	  <TargetFrameworks>net472</TargetFrameworks>
 	  <UseWindowsForms>true</UseWindowsForms>
 	  <Description>Windows Forms controls for working with DotSpatial GIS objects.</Description>
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
