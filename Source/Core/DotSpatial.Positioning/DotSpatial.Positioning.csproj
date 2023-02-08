@@ -2,9 +2,10 @@
 
   <PropertyGroup>
 	  <LangVersion>9.0</LangVersion>
-    <TargetFrameworks>net472</TargetFrameworks>
+		<TargetFrameworks>net472;netstandard2.0</TargetFrameworks>
     <Description>This assembly provides objects used to design geographic applications.</Description>
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <PackageId>MP.$(AssemblyName)</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -17,6 +18,7 @@
 
   <ItemGroup>
     <PackageReference Include="IndexRange" Version="1.0.2" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.3" />
     <PackageReference Include="System.IO.Ports" Version="6.0.0" />
   </ItemGroup>
 
